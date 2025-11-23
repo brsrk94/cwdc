@@ -38,7 +38,7 @@ const DirectoryTable = ({ items, parentLink }) => {
                                     <Link to={item.path}>{item.name}</Link>
                                 )}
                             </td>
-                            <td className="date">{item.date || '2023-11-23 10:00'}</td>
+                            <td className="date">{item.date || '2025-11-23 10:00'}</td>
                             <td className="size">{item.size || '-'}</td>
                             <td style={{ color: '#aaa' }}>{item.description}</td>
                         </tr>

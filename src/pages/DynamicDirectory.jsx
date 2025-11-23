@@ -23,7 +23,7 @@ const getFakeSize = (name) => {
     }
 };
 
-// Helper to generate consistent random date in 2023
+// Helper to generate consistent random date in 2025
 const getFakeDate = (name) => {
     let hash = 0;
     for (let i = 0; i < name.length; i++) {
@@ -38,7 +38,7 @@ const getFakeDate = (name) => {
     const minute = hash % 60;
 
     const pad = (n) => n.toString().padStart(2, '0');
-    return `2023-${pad(month)}-${pad(day)} ${pad(hour)}:${pad(minute)}`;
+    return `2025-${pad(month)}-${pad(day)} ${pad(hour)}:${pad(minute)}`;
 };
 
 const DynamicDirectory = () => {

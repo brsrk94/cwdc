@@ -63,10 +63,22 @@ export const resourceData = {
                             url: "https://securityblue.team/"
                         },
                         {
+                            title: "Blue Team Essentials",
+                            creator: "Day Cyberwox",
+                            description: "Essential skills for Blue Team operations",
+                            url: "https://youtube.com/playlist?list=PLBf0hzazHTGNcIS_dHjM2NgNUFMW1EZFx&si=l-mlV4N_FbZ72gXG"
+                        },
+                        {
+                            title: "Security Analyst Training",
+                            creator: "Simplilearn",
+                            description: "Complete course for Security Analysts",
+                            url: "https://youtube.com/playlist?list=PLKHIhZJiQ5Al-LFaJlia0wmhBE9BzcD4V&si=oaU_ARucN_sXv_bT"
+                        },
+                        {
                             title: "Threat Hunting Fundamentals",
                             creator: "Various",
                             description: "Learn proactive threat hunting techniques",
-                            url: "https://www.youtube.com/playlist?list=PLBf0hzazHTGMd_p2o5yGjQj_2gQj_2gQj"
+                            url: "https://youtube.com/playlist?list=PLjWEV7pmvSa5UTZlsWp5wRnURNbeMS-fu&si=zuvQFQxOyyrJ1VMZ"
                         }
                     ],
                     docs: [
@@ -1109,19 +1121,19 @@ export const resourceData = {
                             title: "Introduction to Algorithms (CLRS)",
                             author: "Cormen, Leiserson, Rivest, Stein",
                             description: "The definitive algorithms textbook",
-                            url: "https://mitpress.mit.edu/9780262046305/introduction-to-algorithms/"
+                            url: "https://www.cs.mcgill.ca/~akroit/math/compsci/Cormen%20Introduction%20to%20Algorithms.pdf"
                         },
                         {
                             title: "Competitive Programming 4",
                             author: "Steven & Felix Halim",
                             description: "Comprehensive competitive programming guide",
-                            url: "https://cpbook.net/"
+                            url: "http://195.178.93.92:48082/sklad/bulletin/2024-3/zdrojaky/striz-cp4/obr/cp4-1.pdf"
                         },
                         {
                             title: "The Algorithm Design Manual",
                             author: "Steven Skiena",
                             description: "Practical guide to algorithm design",
-                            url: "https://www.algorist.com/"
+                            url: "https://mrce.in/ebooks/Algorithm%20Design%20Manual%203rd%20Ed.pdf"
                         }
                     ],
                     videos: [
@@ -1186,13 +1198,13 @@ export const resourceData = {
                             title: "Guide to Competitive Programming",
                             author: "Antti Laaksonen",
                             description: "Learning and improving algorithms",
-                            url: "https://cses.fi/book/book.pdf"
+                            url: "https://duoblogger.github.io/assets/pdf/memonvyftw/guide-t-cp.pdf"
                         },
                         {
                             title: "Algorithms",
                             author: "Robert Sedgewick & Kevin Wayne",
                             description: "Comprehensive algorithms textbook",
-                            url: "https://algs4.cs.princeton.edu/"
+                            url: "https://mrce.in/ebooks/Algorithms%204th%20Ed.pdf"
                         }
                     ],
                     videos: [
@@ -1256,13 +1268,13 @@ export const resourceData = {
                             title: "Cracking the Coding Interview",
                             author: "Gayle Laakmann McDowell",
                             description: "189 programming questions and solutions",
-                            url: "https://www.crackingthecodinginterview.com/"
+                            url: "http://www.r-5.org/files/books/computers/overviews/cs-tools/Gayle_Laakmann-Cracking_the_Coding_Interview-EN.pdf"
                         },
                         {
                             title: "Elements of Programming Interviews",
                             author: "Aziz, Lee, Prakash",
                             description: "The insiders' guide to coding interviews",
-                            url: "https://elementsofprogramminginterviews.com/"
+                            url: "https://elementsofprogramminginterviews.com/sample/epilight_cpp_new.pdf"
                         }
                     ],
                     videos: [
