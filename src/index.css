@@ -1,0 +1,111 @@
+:root {
+  --bg-color: #121212;
+  --text-color: #e0e0e0;
+  --link-color: #4da6ff;
+  --link-visited: #b366ff;
+  --border-color: #333;
+  --hover-bg: #1e1e1e;
+  --font-mono: 'Courier New', Courier, monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: var(--font-mono);
+  margin: 0;
+  padding: 20px;
+  font-size: 16px;
+}
+
+a {
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-weight: normal;
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 10px;
+  word-break: break-all;
+  /* Handle long paths on mobile */
+}
+
+/* Table Container for Mobile Scrolling */
+.table-container {
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  min-width: 600px;
+  /* Ensure table doesn't squash too much */
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px;
+  border-bottom: 1px solid #222;
+  white-space: nowrap;
+  /* Prevent wrapping in cells */
+}
+
+th {
+  font-weight: bold;
+  border-bottom: 2px solid var(--border-color);
+}
+
+tr:hover {
+  background-color: var(--hover-bg);
+}
+
+.icon {
+  margin-right: 10px;
+  width: 20px;
+  display: inline-block;
+  text-align: center;
+}
+
+.size,
+.date {
+  color: #888;
+  font-size: 0.9em;
+  width: 150px;
+}
+
+.footer {
+  margin-top: 40px;
+  border-top: 1px solid var(--border-color);
+  padding-top: 10px;
+  font-size: 12px;
+  color: #666;
+}
+
+/* Mobile Adjustments */
+@media (max-width: 768px) {
+  body {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  h1 {
+    font-size: 18px;
+  }
+
+  /* Hide less important columns on very small screens if needed, 
+     but scrolling is usually better for this specific vibe */
+}
